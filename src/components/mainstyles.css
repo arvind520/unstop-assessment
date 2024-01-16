@@ -1,0 +1,107 @@
+.layout-container{
+    display: flex;
+    height: 100vh;
+}
+
+.left-layout{
+    margin-right: 20px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-layout{
+    background-color: white;
+    height: fit-content;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.grid-icon__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 25px;
+    gap: 3px;
+}
+
+.grid-icon__container:hover{
+    border: 2px solid #6daceb;
+    background-color: #ebedee;
+    border-radius: 8px;
+}
+
+.grid-icon__text{
+    color: #1C4980;
+    font-weight: 500;
+}
+
+.activeGrid{
+    border: 2px solid #0073E6;
+    background-color: #E5F1FC;
+    border-radius: 8px;
+}
+
+.dashLine{
+    width: 125px;
+    border-top: 2px dashed #c8c8c8;
+}
+
+.modal-header{
+    color: #1C4980;
+}
+.modal-footer{
+    color: #1C4980;
+}
+.newForm{
+    /* background-color: whitesmoke; */
+    color: #1C4980;
+    font-weight: 500;
+}
+.newForm  input::placeholder{
+    color: #1C4980;
+}
+
+.selectedItems{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 3px;
+}
+
+.selectedItem{
+    background-color: #DDEDFF;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.sidenav{
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 2000;
+    width: 100vw;
+    height: 100vh;
+    max-width: 370px;
+}
+
+.overviewSection{
+    /* add slide down transition when display becomes from none to block */
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    transition: left 0.3s ease-out;
+    z-index: 1000;
+  }

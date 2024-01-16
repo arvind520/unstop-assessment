@@ -1,0 +1,10 @@
+.myassessment{
+    color: #1C4980;
+    font-weight: 500;
+}
+.assessment-head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+}
